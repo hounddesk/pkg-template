@@ -16,7 +16,6 @@ Node.js 10.16.3 or higher is recommended.
 - TypeScript
 - Testing with [Jest](https://jestjs.io/) and [Tap reporter](https://www.npmjs.com/package/jest-tap-reporter)
 - TypeScript linting using eslint
-- Lint-staged support (only lint files that will be committed, not your entire project!) [Read more](https://www.npmjs.com/package/lint-staged)
 - TypeScript watch mode using ts-node-dev
 - Formatting using Prettier
 - Pre-commit hook using Husky (will run linter, formatting and unit tests before each commit)

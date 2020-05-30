@@ -43,7 +43,6 @@
     "husky": "^4.2.5",
     "jest": "^25.1.0",
     "jest-tap-reporter": "^1.9.0",
-    "lint-staged": "^10.2.7",
     "prettier": "^2.0.5",
     "ts-jest": "^25.2.1",
     "ts-node-dev": "^1.0.0-pre.44",
@@ -64,7 +63,10 @@
   "directories": {
     "test": "test"
   },
-  "lint-staged": {
-    "*.{js,ts}": "npm run lint:fix"
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format && npm run lint:fix && npm test",
+      "pre-push": "npm run format && npm run lint:fix && npm test"
+    }
   }
 }

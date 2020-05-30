@@ -1,7 +1,7 @@
-import logger from "../src";
+import logger from '../src';
 
-describe("Test suite", () => {
-  it("should work", () => {
-    expect(logger()).toEqual("it works");
+describe('Test suite', () => {
+  it('should work', () => {
+    expect(logger()).toEqual('it works');
   });
 });
