@@ -1,6 +1,6 @@
 # pkg-template
 
-The best starting point for your new NPM package
+The best starting point for your new Node project
 
 ## Installation
 
