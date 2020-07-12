@@ -19,8 +19,8 @@
       "type": "node",
       "address": "localhost",
       "port": 9229,
-      "sourceMaps": false,
-      "request": "launch"
+      "sourceMaps": true,
+      "request": "attach"
     }
   ]
 }
